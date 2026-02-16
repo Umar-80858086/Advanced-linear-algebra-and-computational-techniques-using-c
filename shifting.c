@@ -3,9 +3,9 @@
 
 void main(){
 
-int c = 1;
+int c = 0xf;
 int y = c << 1;
 printf(
-"shifted number %d\n", y
+"shifted number %d\n", y // answer will 30 
 );
 }
